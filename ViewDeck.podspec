@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '8.0'
 
   s.summary   = 'An implementation of a sliding menu functionality found in various iOS apps.'
-  s.homepage  = 'https://github.com/ViewDeck/ViewDeck'
+  s.homepage  = 'https://github.com/Staricase/ViewDeck'
   s.license   = {
     :type => 'MIT',
     :text => <<-LICENSE
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
                 }
 
   s.source    = {
-                  :git => 'https://github.com/ViewDeck/ViewDeck.git',
+                  :git => 'https://github.com/Staricase/ViewDeck.git',
                   :tag => s.version.to_s
                 }
   s.source_files  = 'ViewDeck/**/*.{h,m,mm}'
